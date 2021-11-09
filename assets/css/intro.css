@@ -1,0 +1,186 @@
+
+ body {
+        position: relative;
+        width: 1440px;
+        height: 800px;
+        background-image: url('./assets/images/bg-desktop.svg');
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .logo img {
+        padding: 40px 0 0 60px;
+    }
+/* Button Style Starts */
+    button {
+
+        position: absolute;
+        width: 200px;
+        height: 56px;
+        border-radius: 29px;
+        background-color: #fff;
+        border: none;
+        color: hsl(257, 40%, 49%);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+
+
+    }
+     button:hover {
+        background-color: hsl(300, 69%, 71%);
+        color: #fff;
+
+    }
+/* Button Styles Ends */
+/* Image Style Starts */
+
+    .left-images img {
+        position: absolute;
+        width: 696px;
+        height: 493px;
+        left: 80px;
+       top: 200px;
+    }
+    /* Image Style Ends */
+
+/* Right Content Style Starts */
+
+    .right-content {
+        position: absolute;
+        width: 520px;
+        height: 225px;
+        left: 835px;
+        top: 232px;
+    }
+
+    .right-content h1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+        letter-spacing: 0px;
+        text-align: left;
+        height: 120px;
+        left: 0%;
+        right: 6.35%;
+        top: calc(50% - 120px/2 - 32.5px);
+
+    }
+
+    .right-content p {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #fff;
+        right: 0%;
+        left: 0%;
+        top: 64%;
+        bottom: 0%;
+    }
+/* Social media icon Style Starts */
+
+    .social-media {
+        position: absolute;
+        width: 152px;
+        height: 40px;
+        left: 1208px;
+        top: 720px;
+    }
+
+    .fa {
+        color: #fff;
+        border-radius: 50%;
+        border: solid white;
+        line-height: 2em;
+        width: 2em;
+        height: 2em;
+        font-size: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+
+
+    .fa:hover {
+        color: hsl(300, 69%, 71%);
+        border: solid hsl(300, 69%, 71%);
+    }
+    /* Social media icon Style Ends */
+/* Responsive Style Starts */
+
+
+    @media (max-width:375px) {
+        .left-images img {
+            position: absolute;
+            width: 296px;
+            height: 209px;
+            left: 40px;
+            top: 127px;
+        }
+
+        .right-content {
+            position: absolute;
+            width: 304px;
+            height: 272px;
+            left: 36px;
+            top: 396px;
+        }
+
+        .right-content h1 {
+            position: absolute;
+            height: 72px;
+            left: 3.95%;
+            right: 3.95%;
+            top: calc(50% - 72px/2 - 100px);
+
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+        }
+
+        .right-content p {
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 32.35%;
+            bottom: 23.53%;
+
+            font-family: OpenSans;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+
+            color: #FFFFFF;
+        }
+
+        button {
+            position: absolute;
+            left: 17.11%;
+            right: 17.11%;
+            top: 85.29%;
+            bottom: 0%;
+        }
+
+        .social-media {
+            left: 115px;
+            top: 732px;
+        }
+
+        .logo img {
+            padding: 15px 0 0 25px;
+        }
+    }
+/* Responsive Style Ends */

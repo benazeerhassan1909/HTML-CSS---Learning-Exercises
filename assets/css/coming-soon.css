@@ -1,0 +1,140 @@
+  .ping {
+        /* PING. */
+
+        position: absolute;
+        width: 90px;
+        height: 39px;
+        left: 675px;
+        top: 80px;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        color: #15202A;
+    }
+
+    .headline {
+        position: absolute;
+        width: 712px;
+        height: 60px;
+        left: 364px;
+        top: 159px;
+
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 60px;
+        /* identical to box height, or 125% */
+        text-align: center;
+
+        color: #969696;
+    }
+
+    .headline span {
+        font-weight: bold;
+        color: #000;
+    }
+
+    .title {
+        width: 243px;
+        position: absolute;
+        height: 24px;
+        left: 599px;
+        top: 235px;
+
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+
+        color: #15202A;
+    }
+
+    .notify-me {
+        position: absolute;
+        width: 637px;
+        height: 56px;
+        left: 402px;
+        top: 299px;
+
+    }
+
+    input {
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        width: 65%;
+
+        background: #FFFFFF;
+        border: 1px solid #C2D3FF;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.0001);
+        border-radius: 28px;
+    }
+
+
+    button {
+        position: absolute;
+        width: 199.69px;
+        height: 56px;
+        left: 420px;
+        border-radius: 30px;
+        color: #FFFFFF;
+        background-color: hsl(223, 87%, 63%);
+        ;
+    }
+
+    .dash-img {
+        position: absolute;
+        width: 640px;
+        height: 383px;
+        left: 400px;
+        top: 449px;
+    }
+
+    footer {
+        position: absolute;
+        width: 204px;
+        height: 71px;
+        left: 618px;
+        top: 904px;
+    }
+
+    .social-icons {
+        position: absolute;
+        width: 120px;
+        height: 31px;
+        left: 42px;
+        top: 0px;
+    }
+
+    .fa {
+        color: hsl(223, 87%, 63%);
+        padding-right: 10px;
+        border-radius: 50%;
+    }
+
+    .copyright {
+        position: absolute;
+        height: 15px;
+        left: 0%;
+        right: 0.49%;
+        top: calc(50% - 15px/2 + 28px);
+        padding-bottom: 30px;
+
+
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+
+        color: #969696;
+    }
